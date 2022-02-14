@@ -156,5 +156,8 @@ var str1 = "Another String data"
 // replace(solih gej bgaa heseg , shineer orluulah heseg)
 
 // гэрт давталт судлах
+// baatar - aaa
 // Гараас нэр оруулаад, Бүх эгшиг үсгүүдийг concat хийгээд консолд 
 // хэвлэ /aeiou/
+
+// github.com/taichir0923/SW-917-new
