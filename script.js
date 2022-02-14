@@ -99,3 +99,62 @@
 // Гэрт нөхцөл шалгах if statement судалж ирэх
 
 // github.com/taichir0923/SW-917-new
+
+// if statement
+// if , if else , if else if , switch case , ternary operator
+
+// == , === , ? : , && , || , < , > - true , false
+// var x = 5;
+// var boolean = true;
+// var isBoolean = !boolean;
+// === , !==
+// {} - (block)
+
+// if else
+
+// if else if
+// var x = 15;
+// buhel , butarhai , sorog
+// if(x < 10){
+//     // true bh tohioldold ene block dotorh code ajillana
+//     var isTrue = true;
+// } else {
+//     // false ur dun garsan tohioldold ene heseg ajillana
+//     isTrue = false;
+// }
+
+// console.log(isTrue)
+// var num = +prompt('number');
+// if(num < 0){
+//     console.log('sorog')
+// } else if (num % 1 === 0) {
+//     console.log('buhel')
+// } else {
+//     console.log('butarhai')
+// }
+
+// ternary operator
+// num < 0 ? console.log('sorog') : num % 1 === 0 ? console.log('buhel') : console.log('butarhai')
+
+// && logic
+
+// num < 0 && console.log('sorog');
+// string methods
+var str = "this is dummy strin.";
+var str1 = "Another String data"
+// index - 0 , 1 , 2
+
+// chatAt(index) - Тухайн индекс дээр ямар тэмдэгт байгааг харуулна
+// slice(startIndex , endIndex) - тэмдэгт мөрийн тодорхой хэсгийг тасдаж авна
+// [startIndex , endIndex[  
+
+// toUpperCase() , toLowerCase();
+
+// trim() - Тэмдэгт мөрийн эхэнд болон сүүлд байгаа хоосон зайнуудыг арилгаж өгнө
+// concat(anotherString) - хоёр сринг төрлийн өгөгдлийг нэгтгэнэ
+
+// replace(solih gej bgaa heseg , shineer orluulah heseg)
+
+// гэрт давталт судлах
+// Гараас нэр оруулаад, Бүх эгшиг үсгүүдийг concat хийгээд консолд 
+// хэвлэ /aeiou/
