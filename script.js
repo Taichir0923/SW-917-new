@@ -140,8 +140,8 @@
 
 // num < 0 && console.log('sorog');
 // string methods
-var str = "this is dummy strin.";
-var str1 = "Another String data"
+// var str = "this is dummy strin.";
+// var str1 = "Another String data"
 // index - 0 , 1 , 2
 
 // chatAt(index) - Тухайн индекс дээр ямар тэмдэгт байгааг харуулна
@@ -161,3 +161,31 @@ var str1 = "Another String data"
 // хэвлэ /aeiou/
 
 // github.com/taichir0923/SW-917-new
+// for - for(parameter zarlah ; nohtsol ; parametriig oorchloh)
+// var ner = prompt("Ner");
+// var vovels = "";
+// for(var i = 0; i < ner.length; i++){
+//     // davtaltiin nohtsol true bh uyd ene heseg ajillana
+//     if(
+//         ner[i].toLowerCase() === "a" || 
+//         ner[i].toLowerCase() === "e" ||
+//         ner[i].toLowerCase() === "i" ||
+//         ner[i].toLowerCase() === "o" ||
+//         ner[i].toLowerCase() === "u"
+//     ){
+//         vovels = vovels.concat(ner[i]);
+//     }
+// }
+// && and logic , || or logic
+// 1. 100 хүртэлх тоонуудаас бүх анхны тоонуудын нийлбэрийг ол.
+// 2. 100 хүртэлх тоонуудаас бүх 7-д хуваагддаг тоонуудын нийлбэр.
+// 3. Гараас тоо үсэг холилдсон текст өгөгдсөн бол, тухайн текстийн
+// тоо болон үсгүүдийг салгаж , тус тусад нь стринг болгож хадгал
+// жишээ: gjskld4324jk234hj4vg23hj123 => 
+// 4324234423123 , gjskldjkhjvghj
+
+// 4. Гараас тоо өгөгдсөн бол тухайн тооны сүүлээсээ 2 дахь цифр
+// ямар тоо байгааг ол.
+// 5. Гараас үг өгөгдсөн бол, тухайн үгэнд давтагдаагүй тоогоор
+// хэдэн ширхэг эгшиг үсэг байгааг тоол
+// Жишээ: presentation => e,a,i,o => 4 ширхэг эгшиг үсэг байна
