@@ -184,8 +184,122 @@
 // жишээ: gjskld4324jk234hj4vg23hj123 => 
 // 4324234423123 , gjskldjkhjvghj
 
-// 4. Гараас тоо өгөгдсөн бол тухайн тооны сүүлээсээ 2 дахь цифр
-// ямар тоо байгааг ол.
+// 4. Гараас тоо өгөгдсөн бол тухайн тооны сүүлээсээ 2 дахь цифр ямар тоо байгааг ол.
 // 5. Гараас үг өгөгдсөн бол, тухайн үгэнд давтагдаагүй тоогоор
 // хэдэн ширхэг эгшиг үсэг байгааг тоол
 // Жишээ: presentation => e,a,i,o => 4 ширхэг эгшиг үсэг байна
+
+
+// Non-Primitive Data types in JS
+// Array , Object , /RegExp/ - Data structure
+
+// var massiv = new Array(123 , 34 , 56);
+// // []
+// var massiv1 = [789 , "bjkgfd" , 234 , "gjfkl" , true];
+// // var nestedMassiv = [[213 , 4324 , 432] , ["fkjsdk" , 321, 56]]
+// // 
+// massiv1[4] = "123";
+
+// push -hamgiin suuld element nemj ogoh
+// pop - hamgiin suuliin elementiig ustgah
+// shift - hamgiin ehnii elementiig ustgah
+// unshift - hamgiin ehend element nemeh
+// slice - todorhoi hesgiig tasdaj avah
+// splice - dundaas n todorhoi hesgiig n ustah
+// reverse - ogogdluudiin bairlaliig urvuu bolgoh
+// massiv1.push("blabla");
+// massiv1.pop();
+
+// TypeScript
+// Tuple - massiv
+// 3 ширхэг өгөдөл агуулсан tuple үүсгэнэ.
+// өгөгдлүүдийн хувьд эхнийх нь тоо, 2 дахь нь стринг, 3 дахь нь бүүлеан байх...
+// нөхцөл ашиглаж тухайн өгөгдлийг tuple мөн эсэхийг шалга
+
+// NestJS
+// React
+
+// Async JS
+// ... - spread operator
+var mass = [123, 234, 345, 456];
+var arr = [23, 56, ...mass, 78, 93];
+
+var updatedArray = [...arr];
+
+// object
+var shiree = {
+    ongo: "tsagaan",
+    material: "Mod",
+    ondor: "1 meter",
+    orgon: "0.6 meter",
+    urt: "1.6 meter"
+}
+
+var hun = {
+    ner: "Narada",
+    utas: 976,
+    email: "narada@mail.com",
+    hayg: {
+        city: "Ulaanbaatar",
+        duureg: "SBD",
+        horoo: "10-r horoo"
+    }
+}
+hun.hobbies = ["Kino uzeh", "Duu sonsoh"]
+
+// ["ner" , "ner1" , "ner2"]
+
+// [{...} , {...} , {...}]
+
+var person = { 
+    ...hun,
+    mergejil: "Designer",
+    ner: "John",
+    email: "john@mail.com"
+};
+
+// 5ш хэрэглэгчийн дата массив дотор хадгалаад, емэйлээр хэрэглэгч хайж олоод, нэрийг нь өөрчлөх программ бич
+
+// var members = [hun , person];
+// var email = prompt('email');
+
+// for(var i = 0; i < members.length; i++){
+//     if(members[i].email == email){
+//         var ner = prompt('solih neree oruul...');
+//         members[i].ner = ner;
+//     }
+// }
+// for , for of , for in , do while
+
+// var masss = [12 , 13 , 14 , 15];
+
+// for(var el in masss){
+//     console.log(masss[el])
+// }
+
+// for(var el in person){
+//     console.log(person[el]);
+// }
+// var i = 0;
+// var j = 0
+// while(i < 10){
+    // if(i%2 === 1){
+    //     console.log(i);
+    // }
+
+    // i++;
+// };
+
+// do {
+//     if(i%2 === 1){
+//         console.log("i: " + i);
+//     }
+
+//     if(j%2 === 0){
+//         console.log("j: " + j)
+//     }
+
+//     i++;
+//     j++;
+// } while (i < 10 && j < 20);
+
