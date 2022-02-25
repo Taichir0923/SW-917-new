@@ -220,43 +220,43 @@
 // React
 
 // Async JS
-// ... - spread operator
-var mass = [123, 234, 345, 456];
-var arr = [23, 56, ...mass, 78, 93];
+// // ... - spread operator
+// var mass = [123, 234, 345, 456];
+// var arr = [23, 56, ...mass, 78, 93];
 
-var updatedArray = [...arr];
+// var updatedArray = [...arr];
 
-// object
-var shiree = {
-    ongo: "tsagaan",
-    material: "Mod",
-    ondor: "1 meter",
-    orgon: "0.6 meter",
-    urt: "1.6 meter"
-}
+// // object
+// var shiree = {
+//     ongo: "tsagaan",
+//     material: "Mod",
+//     ondor: "1 meter",
+//     orgon: "0.6 meter",
+//     urt: "1.6 meter"
+// }
 
-var hun = {
-    ner: "Narada",
-    utas: 976,
-    email: "narada@mail.com",
-    hayg: {
-        city: "Ulaanbaatar",
-        duureg: "SBD",
-        horoo: "10-r horoo"
-    }
-}
-hun.hobbies = ["Kino uzeh", "Duu sonsoh"]
+// var hun = {
+//     ner: "Narada",
+//     utas: 976,
+//     email: "narada@mail.com",
+//     hayg: {
+//         city: "Ulaanbaatar",
+//         duureg: "SBD",
+//         horoo: "10-r horoo"
+//     }
+// }
+// hun.hobbies = ["Kino uzeh", "Duu sonsoh"]
 
 // ["ner" , "ner1" , "ner2"]
 
 // [{...} , {...} , {...}]
 
-var person = { 
-    ...hun,
-    mergejil: "Designer",
-    ner: "John",
-    email: "john@mail.com"
-};
+// var person = { 
+//     ...hun,
+//     mergejil: "Designer",
+//     ner: "John",
+//     email: "john@mail.com"
+// };
 
 // 5ш хэрэглэгчийн дата массив дотор хадгалаад, емэйлээр хэрэглэгч хайж олоод, нэрийг нь өөрчлөх программ бич
 
@@ -303,3 +303,42 @@ var person = {
 //     j++;
 // } while (i < 10 && j < 20);
 
+// Function - Программыг бүрдүүлж буй жижиг хэсгүүдийг функц гэж хэлнэ.
+
+// функц нь тодорхой ажил гүйцэтгэх эсвэл тооцоолол хийх зохирлготой байж болно.
+// var y;
+// var a = 5;
+// var b = a;
+// // global variable
+// function myFunction () {
+//     var x = 5;
+//     var z = 12;
+//     return x + z;
+// }
+// Anonymous function 
+// 7
+// myFunction();
+
+// y = myFunction
+
+// function testDoM(){
+//     console.log("hello...")
+// }
+
+// testDoM()
+
+// parameter function
+
+// @mixin myMixin ($color){ color: $color }
+// @include myMixin(#fff)
+// @include myMixin(#ff0)
+
+// function testFunction(arg){
+//     return arg;
+// }
+
+// callback function - parameter helbereer ashiglagdaj bgaa function
+
+// function findDigit(num , i){
+//     return Math.floor(Math.abs(num) / Math.pow(10 , i)) % 10
+// }
