@@ -342,3 +342,12 @@
 // function findDigit(num , i){
 //     return Math.floor(Math.abs(num) / Math.pow(10 , i)) % 10
 // }
+
+function twoMulti(num1 , num2){
+    var urjver = num1 * num2;
+    if(urjver >= 1000){
+        return urjver
+    } else {
+        return num1 + num2
+    }
+}
