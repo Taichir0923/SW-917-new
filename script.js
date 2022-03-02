@@ -343,13 +343,17 @@
 //     return Math.floor(Math.abs(num) / Math.pow(10 , i)) % 10
 // }
 
-function twoMulti(num1 , num2){
-    var urjver = num1 * num2;
-    if(urjver >= 1000){
-        return urjver
-    } else {
-        return num1 + num2
-    }
-}
+// function twoMulti(num1 , num2){
+//     var urjver = num1 * num2;
+//     if(urjver >= 1000){
+//         return urjver
+//     } else {
+//         return num1 + num2
+//     }
+// }
 
 // 12321
+// 100;
+// sum = 0
+
+// sum(n) = ((a(1) + a(n)) / 2) * n

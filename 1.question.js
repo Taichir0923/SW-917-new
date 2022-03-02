@@ -31,3 +31,16 @@
 
 
 // # 10. 2 ширхэг массив өгөгдсөн бол эхний массиваас зөвхөн сондгой, 2 дахь массиваас зөвхөн тэгш утгуудыг агуулсан шинэ массив үүсгэж буцаа
+
+// [11,2,15,7]
+// 11 2
+// 11 15
+// 11 7
+
+
+// 2 15
+// 2 7
+
+
+
+// fjdsjglfkdlkgjdlsfkgjklfjgklfjdsklgjfdklgjklfjglkjfdlkgfjsdlkgjdflskgjldfksjglsdfjgdfskljgldfksjgklfdsjglkdfsjlgkjfkldsjglkdfsjglfjsdgdsflkjglksfdjgdfs
