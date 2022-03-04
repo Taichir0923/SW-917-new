@@ -397,3 +397,11 @@ function addTwoNumbers(l1 , l2){
     var sum = revNum(listToNum(l1)) + revNum(listToNum(l2));
     return revNum(sum , true);
 }
+
+// stack
+
+// parentheses balance
+
+// [()](){{}}[]
+// 
+// 041212*
