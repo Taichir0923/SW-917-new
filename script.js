@@ -381,7 +381,6 @@ function revNum(num , isMassiv){
 
     return result;
 }
-
 function listToNum (list){
     var result = 0;
 
@@ -392,7 +391,6 @@ function listToNum (list){
 
     return result;
 }
-
 function addTwoNumbers(l1 , l2){
     var sum = revNum(listToNum(l1)) + revNum(listToNum(l2));
     return revNum(sum , true);
