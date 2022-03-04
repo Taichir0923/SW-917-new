@@ -357,3 +357,43 @@
 // sum = 0
 
 // sum(n) = ((a(1) + a(n)) / 2) * n
+
+// function addTwoNumbers(l1 , l2){
+//     var revNum1 = +l1.reverse().join("");
+//     var revNum2 = +l2.reverse().join("");
+
+//     var sum = revNum1 + revNum2
+
+//     return sum.toString().split("").reverse().map(function(el){
+//         return +el
+//     });
+// }
+
+function revNum(num , isMassiv){
+    var result = isMassiv ? [] : 0;
+    var lastDigit;
+
+    while(num != 0){
+        lastDigit = num % 10;
+        isMassiv ? result.push(lastDigit) : result = result * 10 + lastDigit
+        num = Math.floor(num / 10);
+    }
+
+    return result;
+}
+
+function listToNum (list){
+    var result = 0;
+
+    for(var i = 0; i < list.length; i++){
+        result = result * 10;
+        result += list[i];
+    }
+
+    return result;
+}
+
+function addTwoNumbers(l1 , l2){
+    var sum = revNum(listToNum(l1)) + revNum(listToNum(l2));
+    return revNum(sum , true);
+}
