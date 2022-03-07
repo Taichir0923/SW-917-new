@@ -184,6 +184,7 @@
 // жишээ: gjskld4324jk234hj4vg23hj123 => 
 // 4324234423123 , gjskldjkhjvghj
 
+
 // 4. Гараас тоо өгөгдсөн бол тухайн тооны сүүлээсээ 2 дахь цифр ямар тоо байгааг ол.
 // 5. Гараас үг өгөгдсөн бол, тухайн үгэнд давтагдаагүй тоогоор
 // хэдэн ширхэг эгшиг үсэг байгааг тоол
@@ -283,11 +284,11 @@
 // var i = 0;
 // var j = 0
 // while(i < 10){
-    // if(i%2 === 1){
-    //     console.log(i);
-    // }
+// if(i%2 === 1){
+//     console.log(i);
+// }
 
-    // i++;
+// i++;
 // };
 
 // do {
@@ -369,37 +370,133 @@
 //     });
 // }
 
-function revNum(num , isMassiv){
-    var result = isMassiv ? [] : 0;
-    var lastDigit;
+// function revNum(num , isMassiv){
+//     var result = isMassiv ? [] : 0;
+//     var lastDigit;
 
-    while(num != 0){
-        lastDigit = num % 10;
-        isMassiv ? result.push(lastDigit) : result = result * 10 + lastDigit
-        num = Math.floor(num / 10);
-    }
+//     while(num != 0){
+//         lastDigit = num % 10;
+//         isMassiv ? result.push(lastDigit) : result = result * 10 + lastDigit
+//         num = Math.floor(num / 10);
+//     }
 
-    return result;
-}
-function listToNum (list){
-    var result = 0;
+//     return result;
+// }
+// function listToNum (list){
+//     var result = 0;
 
-    for(var i = 0; i < list.length; i++){
-        result = result * 10;
-        result += list[i];
-    }
+//     for(var i = 0; i < list.length; i++){
+//         result = result * 10;
+//         result += list[i];
+//     }
 
-    return result;
-}
-function addTwoNumbers(l1 , l2){
-    var sum = revNum(listToNum(l1)) + revNum(listToNum(l2));
-    return revNum(sum , true);
-}
-
+//     return result;
+// }
+// function addTwoNumbers(l1 , l2){
+//     var sum = revNum(listToNum(l1)) + revNum(listToNum(l2));
+//     return revNum(sum , true);
+// }
+// callback - 
 // stack
 
+
 // parentheses balance
+
 
 // [()](){{}}[]
 // 
 // 041212* - haalganii code
+
+//  шпагетти код
+
+
+// void - performance
+
+// return - tootsoolol
+// var tst = prompt("utga oruul");
+// console.log(tst);
+
+// orolt: 5
+
+// function test(x , y , z , t , e , r){
+//     console.log(x);
+// }
+
+// 1. Гараас массивын урт өгөгдөв... массивын утгуудыг 1-100 хооронд санамсаргүй тоо байхаар тооцоолж, шинэ массив үүсгээд буцаа.
+
+// function makeArray(len){
+//     var arr = [];
+
+//     for(var i = 0; i < len; i++){
+//         arr.push(Math.floor(Math.random() * 100) + 1);
+//     }
+
+//     return arr;
+// }
+
+// call stack
+// 
+
+// function f1(){
+//     f2();
+//     console.log("task hiigdej duuslaa...");
+// }
+
+// function f2(){
+//     f3();
+//     console.log("task 50%")
+// }
+
+// function f3(){
+//     console.log("task ehellee...")
+// }
+
+// higher order function
+
+// filter , map , sort , reduce , find , findInex...
+
+// forEach
+
+// var x = [12 , 13 , 14 , 15 , 1 , 3 , 2 , 0];
+
+// push(utga);
+// filter => returns boolean
+// find
+// findIndex
+
+// var y = x.filter(function(el){
+//     return el < 10
+// });
+
+// map => el
+
+
+// forEach => void
+
+// x.forEach(function(el){
+//     el % 2 === 0 && console.log(el)
+// });
+
+// function test(callback, arg, arg2) {
+//     callback(arg, arg2);
+// }
+
+
+// test(function (el, el2) {
+//     console.log(el);
+//     console.log(el2);
+// }, 14, 15);
+
+// "leader"
+// var vovels = ["a" , "e" , "i" , "o" , "u"];
+// ["e" , "a"]; len
+
+// test();
+// (function(){
+
+// })
+function restParams(...args){
+    console.log(args)
+}
+
+restParams(12 , 14 , 2)
