@@ -484,8 +484,9 @@
 // (function(){
 
 // })
-function restParams(...args){
-    console.log(args)
-}
+// function restParams(...args){
+//     console.log(args)
+// }
 
-restParams(12 , 14 , 2)
+// restParams(12 , 14 , 2)
+
