@@ -31,3 +31,5 @@ function insertTextValue(){
     container.innerHTML += `<p style="color: ${color.value}">${textInput.value}</p>`;
     textInput.value = '';
 }
+
+// "" ''
