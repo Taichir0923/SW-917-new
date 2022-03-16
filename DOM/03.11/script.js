@@ -23,13 +23,21 @@
 
 // paragraph3.textContent = "This is <em id=\"bla\">text</em> from JS";
 
-const textInput = document.querySelector("#text");
-const color = document.querySelector("#color");
-const container = document.querySelector(".container");
+// const textInput = document.querySelector("#text");
+// const color = document.querySelector("#color");
+// const container = document.querySelector(".container");
 
-function insertTextValue(){
-    container.innerHTML += `<p style="color: ${color.value}">${textInput.value}</p>`;
-    textInput.value = '';
-}
+// function insertTextValue(){
+//     container.innerHTML += `<p style="color: ${color.value}">${textInput.value}</p>`;
+//     textInput.value = '';
+// }
 
 // "" ''
+
+// 1. Modal box хийх...
+// 2. Модал дотор түдү лист оруулах форм үүсгэх
+// 3. INPUT дээр оруулсан утгыг нүүр хуудсанд жагсаалт хэлбэрээр харуулах
+
+
+// Гэрт:
+// Массив дотор 10 хэрэглэчийн дата хадгалаад, бүх хэрэглэгчийн нэр болон имэйл , утасны дугаарыг html хүснэгт дотор хэвлэ...
