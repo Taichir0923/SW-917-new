@@ -2,6 +2,7 @@
 
 const img = document.querySelector('#img');
 const avatar = document.querySelector('#avatar');
+const loader = document.querySelector('.loader');
 
 // addEventListener(event , callback);
 // onchange , oninput
@@ -9,7 +10,13 @@ const avatar = document.querySelector('#avatar');
 
 img.addEventListener('change' , function(){
     const image = img.files[0];
-    avatar.src = URL.createObjectURL(image);
+    loader.classList.remove('hide');
+    loader.classList.add('show');
+    setTimeout(function(){
+        avatar.src = URL.createObjectURL(image);
+        loader.classList.remove('show');
+        loader.classList.add('hide');
+    } , 3000)
 });
 
 // state
