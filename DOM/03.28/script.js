@@ -50,6 +50,15 @@ Array.prototype.myForEach = function(param){
     }
 }
 
+Array.prototype.customMap = function(fn){
+    var result = [];
+
+    for(var i = 0; i < this.length; i ++){
+        result.push(fn(this[i] , i));
+    }
+
+    return result;
+}
 // map
 
 // var tst = function(){
@@ -57,3 +66,14 @@ Array.prototype.myForEach = function(param){
 // }
 
 // tst()
+
+// filter
+// find
+// reduce
+// findIndex
+// sort
+// some
+// every
+
+// true => 
+// falsy => null , undefined , 0 , false
