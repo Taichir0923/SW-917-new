@@ -38,27 +38,27 @@
 // const p2 = new Person('Muni' , "Programmer");
 // const p3 = new Person('John' , "Photographer");
 
-var arr = [12 , 32 , 54 , 76];
+// var arr = [12 , 32 , 54 , 76];
 
-// arr.forEach(function(ymrNgParam , index){
-//     console.log(index , ymrNgParam);
-// })
+// // arr.forEach(function(ymrNgParam , index){
+// //     console.log(index , ymrNgParam);
+// // })
 
-Array.prototype.myForEach = function(param){
-    for(var i = 0; i < this.length; i++){
-        param(this[i] , i);
-    }
-}
+// Array.prototype.myForEach = function(param){
+//     for(var i = 0; i < this.length; i++){
+//         param(this[i] , i);
+//     }
+// }
 
-Array.prototype.customMap = function(fn){
-    var result = [];
+// Array.prototype.customMap = function(fn){
+//     var result = [];
 
-    for(var i = 0; i < this.length; i ++){
-        result.push(fn(this[i] , i));
-    }
+//     for(var i = 0; i < this.length; i ++){
+//         result.push(fn(this[i] , i));
+//     }
 
-    return result;
-}
+//     return result;
+// }
 // map
 
 // var tst = function(){
@@ -77,3 +77,60 @@ Array.prototype.customMap = function(fn){
 
 // true => 
 // falsy => null , undefined , 0 , false
+
+// OOP in ES6;
+
+// class
+// class Person {
+//     constructor(username){
+//         this.username = username;
+//     }
+
+//     setName(name){
+//         this.username = name;
+//         return this;
+//     }
+
+//     // setState()
+// }
+
+// class inheritance
+// class Member extends Person {
+//     state = {
+//         val: 0,
+//         val1: 0
+//     }
+//     constructor(username , email){
+//         super(username);
+//         this.email = email;
+//     }
+
+//     setState(obj){
+//         this.state = {
+//             ...this.state,
+//             ...obj
+//         };
+
+//         return this
+//     }
+// }
+
+class Article {
+    constructor(title, userId , body){
+        this.title = title;
+        this.userId = userId;
+        this.body = body;
+    }
+}
+
+
+class ArticleList {
+    list = [];
+
+    save(title, userId , bod){
+        const article = new Article(title, userId , bod);
+        this.list.push(article)
+    }
+}
+
+// update , delete
