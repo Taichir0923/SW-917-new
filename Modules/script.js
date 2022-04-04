@@ -10,7 +10,7 @@
 //     transaction: "gjkdflgjsldgdkf",
 //     amount: 648273
 // })
-
+// 0000
 // const hashBlock = sha256(block);
 
 // const chain = [hashBlock];
