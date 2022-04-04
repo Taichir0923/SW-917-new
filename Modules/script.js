@@ -5,3 +5,13 @@
 // import {x , bla} from './testDummyDatas.js';
 
 // console.log(x , bla);
+
+// const block = JSON.stringify({
+//     transaction: "gjkdflgjsldgdkf",
+//     amount: 648273
+// })
+
+// const hashBlock = sha256(block);
+
+// const chain = [hashBlock];
+// console.log(chain)
