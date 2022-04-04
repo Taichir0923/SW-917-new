@@ -2,6 +2,6 @@
 // MVC => Model , View , Controller
 
 // 
-import {x , bla} from './testDummyDatas.js';
+// import {x , bla} from './testDummyDatas.js';
 
-console.log(x , bla);
+// console.log(x , bla);
