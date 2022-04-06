@@ -23,4 +23,3 @@ class ArticleView {
 }
 
 const app = new ArticleView();
-console.log(app);
