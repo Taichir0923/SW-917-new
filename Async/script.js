@@ -114,7 +114,12 @@ class DOM {
             this.userContainer.insertAdjacentHTML('afterbegin' , `
                 <div class="user">
                     <h1 class="username" id=${user.id}>${user.name}</h1>
-                    <div id="posts">get posts</div>
+                    <div>
+                        <a href="./posts.html?userId=${user.id}&name=${user.name}">
+                            read posts
+                        </a>
+                    </div>
+
                 </div>
             `)
         })
@@ -150,3 +155,7 @@ class DOM {
 new DOM();
 
 // todos , albums
+
+
+// let obj = {}
+// obj["bla"] = 123;
